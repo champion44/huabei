@@ -1,0 +1,162 @@
+body {
+	font-size: 12px;
+	font-family: none-serif;
+	background-image: url(imges/background.png);
+	background-repeat: no-repeat;
+	background-position: 0 -150px;
+}
+
+
+.floatClear {
+	clear: both;
+}
+
+.distanceEffect {
+	margin-top: 50px;
+}
+
+.banner {
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 10px 10px 50x black;
+}
+
+.banner img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.banner span {
+	font-size: 40px;
+	font-family: "华文行楷"，serif;
+	display: block;
+	line-height: 120px;
+}
+
+.body {
+	width: 60%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.headstate {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+
+.name {
+	float: left;
+	margin-left: 40px;
+}
+
+.menu li {
+	float: right;
+	margin-right: 30px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.body p {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	text-indent: 5em;
+	line-height: 100px;
+}
+
+.experment {
+	width: 80%;
+	height: 100px;
+	margin: auto;
+}
+
+.experment h3 {
+	font-size: 28px;
+	font-family: Microsoft Yahei;
+}
+
+.experment table th {
+	width: 31.8%;
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+}
+
+.experment .experment-button {
+	width: 50px;
+	height: 20px;
+	background-color: green;
+	border: 1px solid black;
+	line-height: 20px;
+}
+
+.experment .experment-button a {
+	text-decoration: none;
+	color: black;
+}
+
+.experment .experment-button a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.experment .experment-button a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.experment .unfinish-button {
+	width: 50px;
+	height: 20px;
+	background-color: red;
+	border: 1px solid black;
+	line-height: 20px;
+}
+
+.experment .unfinish-button a {
+	text-decoration: none;
+	color: black;
+}
+
+.experment .unfinish-button a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.experment .unfinish-button a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+
+.footer {
+	width: 60%;
+	height: 40px;
+	margin:auto;
+	background-color: #333333;
+}
+
+.footer p {
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}

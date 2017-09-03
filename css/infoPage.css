@@ -1,0 +1,144 @@
+body {
+	font-size: 12px;
+	font-family: none-serif;
+	background-image: url(../imges/background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0  -150px;
+}
+
+.floatClear {
+	clear: both;
+}
+
+.distanceEffect {
+	margin-top: 50px;
+}
+
+.banner {
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 10px 10px 50x black;
+}
+
+.banner img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.banner span {
+	font-size: 40px;
+	font-family: "华文行楷"，serif;
+	display: block;
+	line-height: 120px;
+}
+
+.body {
+	width: 60%;
+	background-color: white;
+	margin: auto;
+}
+
+.headstate {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+
+.name {
+	float: left;
+	margin-left: 40px;
+}
+
+.menu li {
+	float: right;
+	margin-right: 30px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.infoTable {
+	width: 500px;
+	margin: auto;
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+}
+
+
+.infoTable table {
+	text-align: right;
+	margin: auto;
+}
+
+.infoTable table tr th p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.infoTable input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 250px;
+	height: 30px;
+	background-color: #ECEDEE;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	text-indent: 10px;
+}
+
+.infoTable  input::-webkit-input-placeholder{color: #6C6564;}
+.infoTable  input::-moz-placeholder{color: #6C6564;}
+.infoTable  input:-ms-input-placeholder{color: #6C6564;}
+.infoTable  input:-moz-placeholder{color: #6C6564;}
+
+.infoTable .submit {
+	width: 100%;
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	cursor: pointer;
+}
+
+.infoTable input:hover {
+	background: rgba(0,0,0,0.4);
+	color: white;
+}
+
+.infoTable input:focus {
+	background: rgba(0,0,0,0.4);
+	color: white;
+}
+
+.footer {
+	width: 100%;
+	height: 40px;
+	margin:auto;
+	margin-top: 55px;
+	background-color: #333333;
+}
+
+.footer p {
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}

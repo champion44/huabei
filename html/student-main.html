@@ -1,0 +1,105 @@
+<?php 
+	
+if(!$_COOKIE['uesrid']) {
+	echo "<script>location="login.html"</script>"
+}
+
+ ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎登录</title>
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="student-main.css" />
+</head>
+<body>
+	<div class="main">
+		<div class="banner">
+			<div><img src="imges/logo.png" alt="" /></div>
+			<div><span>动力工程系</span></div>
+		</div>
+		<div class="body">
+			<div class="headstate">
+				<div class="name">您好，***同学</div>
+				<div class="menu">
+					<ul>
+						<li><a href="login.html">退出系统</a></li>
+						<li><a href="infoPage.html">修改信息</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="floatClear"></div>
+			<p>您有以下课程有相关实践实验环节：</p>
+			<div class="experment">
+				<h3>泵与风机</h3>
+				<hr />
+				<table >
+					<tr>
+						<th>实验名称</th>
+						<th>实验地点</th>
+						<th>实验时间</th>
+						<th>状态</th>
+					</tr>
+					<tr>
+						<th>离心风机进气性能实验</th>
+						<th>教四楼后风机实验室</th>
+						<th>19号下午02：30-04:30</th>
+						<th>
+							<div class="learn-button"><a href="student-1.html">学习</a></div>
+						</th>
+					</tr>
+					<tr>
+						<th>离心式水泵性能实验</th>
+						<th>教四楼110</th>
+						<th>23号下午02：30-04:30</th>
+						<th>
+							<div class="learn-button"><a href="#">学习</a></div>
+						</th>
+					</tr>
+				</table>
+			</div>
+			<div class="distanceEffect"></div>	
+			<div class="experment">
+				<h3>流体力学</h3>
+				<hr />
+				<table >
+					<tr>
+						<th>实验名称</th>
+						<th>实验地点</th>
+						<th>实验时间</th>
+						<th>状态</th>
+					</tr>
+					</tr>
+					<tr>
+						<th>沿程管道损失实验</th>
+						<th>教四楼410</th>
+						<th>19号上午09：30-10:30</th>
+						<th>
+							<div class="book-button"><a href="#">预约</a></div>
+						</th>
+					</tr>
+					<tr>
+						<th>伯努力方程实验</th>
+						<th>教四楼410</th>
+						<th>19号上午11：30-12:30</th>
+						<th>
+							<div class="unfinish-button"><a href="#">未完成</a></div>
+						</th>
+					</tr>
+				</table>
+			</div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		</div>
+		<div class="footer">
+			<p>&copy;版权所有</p>
+		</div>
+	</div>
+</body>
+</html>

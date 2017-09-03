@@ -1,0 +1,143 @@
+body {
+	font-size: 12px;
+	font-family: Microsoft Yahei , none-serif;
+	background-image: url(../imges/background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 -150px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.floatClear {
+	clear: both;
+}
+
+.login-banner div:hover {
+	background-color: #333333;
+	color: white;
+	cursor: pointer;
+}
+
+.login-box {
+	width: 494px;
+	height: 244px;
+	background-color: white;
+	border: 3px solid #333333;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -122px;
+	margin-left: -247px;
+}
+
+
+
+.button {
+	width: 247px;
+	height: 40px;
+	background-color: white;
+	border-bottom: 2px solid #333333;
+	color: #333333;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.button.choosen {
+	background-color: #333333;
+	color: white;
+}
+
+
+.login-body {
+	width: 100%;
+	height: 115px;
+}
+
+.inputArea {
+	margin-left: 50px;
+	float: left;
+}
+
+.login-body input {
+	margin-top: 15px;
+	width: 250px;
+	height: 30px;
+	background-color: #ECEDEE;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	text-indent: 10px;
+}
+
+.login-body  input::-webkit-input-placeholder{color: #6C6564;}
+.login-body  input::-moz-placeholder{color: #6C6564;}
+.login-body  input:-ms-input-placeholder{color: #6C6564;}
+.login-body  input:-moz-placeholder{color: #6C6564;}
+
+
+.login-button {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-left: 60px;
+}
+
+.login-button input {
+	width: 100%;
+	height: 100%;
+	text-indent: -0.5px;
+	font-size: 20px;
+	font-family: SimHei;
+	font-weight: lighter;
+	color: white;
+	background-color: #333333;
+}
+
+#student {
+	display: block;
+}
+
+#teacher {
+	display: none;
+}
+
+.login-footer {
+	margin-left: 20px;
+}
+
+.login-footer img {
+	float: left;
+}
+
+.login-footer-text_1 {
+	font-family: "华文行楷" , serif;
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 4px;
+	margin-top: 15px;
+	margin-right: 30px;
+	float: right;
+}
+
+.login-footer-text_2 {
+	font-size: 16px;
+	font-family: SimSun;
+	letter-spacing: 2px;
+	margin-top: 2px;
+	margin-right: 38px;
+	float: right;
+}

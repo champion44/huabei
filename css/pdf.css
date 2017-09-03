@@ -1,0 +1,12 @@
+
+.pdf_title {
+	width: 100px;
+	height: 30px;
+	background-color: black;
+}
+
+
+.view_pdf .pdf_content embed{
+	width: 750px;
+	height: 600px;
+}

@@ -1,0 +1,191 @@
+.main {
+	height: 100%;
+	font-size: 12px;
+	font-family: none-serif;
+	background-image: url(../imges/background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 -150px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.floatClear {
+	clear: both;
+}
+
+.distanceEffect {
+	margin-top: 50px;
+}
+
+
+.banner {
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 10px 10px 50x black;
+}
+
+.banner img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.banner span {
+	font-size: 40px;
+	font-family: KaiTi ，serif;
+	display: block;
+	line-height: 120px;
+}
+
+.body {
+	width: 60%;
+	height: 100%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.headstate {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+
+.name {
+	float: left;
+	margin-left: 40px;
+}
+
+.menu .logout , .menu .changeInfo {
+	float: right;
+	margin-right: 30px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.body p {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	text-indent: 5em;
+	line-height: 100px;
+}
+
+.experiment {
+	width: 80%;
+	margin: auto;
+}
+
+
+.experiment h3 {
+	font-size: 28px;
+	font-family: Microsoft Yahei;
+}
+
+.experiment table th {
+	width: 31.6%;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: Microsoft Yahei;
+}
+
+.experiment .unfinish-button {
+	width: 60px;
+	height: 20px;
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+	border-radius: 2px;
+	line-height: 20px;
+	text-align: center;
+	background-color: #e0a1b4;
+	cursor:default;
+}
+
+.experiment .learn-button {
+	width: 60px;
+	height: 20px;
+	border-radius: 2px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #333333;
+	background-color: #61b67d;
+	cursor:pointer
+}
+
+.experiment .book-button {
+	width: 60px;
+	height: 20px;
+	border-radius: 2px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #333333;
+	cursor:pointer;
+	background-color: #aed1d3;
+}
+
+
+.experiment .learn-button:hover {
+	background: rgba(97,182,128,0.8);
+	font-size: 14px;
+}
+
+
+
+.experiment input {
+	border: none;
+	width: 60px;
+	height: 20px;
+	border-radius: 2px;
+}
+
+
+
+
+.footer {
+	width: 60%;
+	height: 40px;
+
+	background-color: #333333;
+	position: absolute;
+	bottom: 0px;
+	left: 20%;
+}
+
+.footer p {
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}

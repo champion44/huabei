@@ -1,0 +1,418 @@
+body {
+	font-size: 12px;
+	font-family: none-serif;
+	background-image: url(../imges/background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 -150px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.floatClear {
+	clear: both;
+}
+
+.distanceEffect {
+	margin-top: 50px;
+}
+
+
+.banner {
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 10px 10px 50x black;
+}
+
+.banner img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.banner span {
+	font-size: 40px;
+	font-family: "华文行楷"，serif;
+	display: block;
+	line-height: 120px;
+}
+
+.body {
+	width: 60%;
+	height: 100%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.headstate {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+
+.name {
+	float: left;
+	margin-left: 40px;
+}
+
+.menu li {
+	float: right;
+	margin-right: 30px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.body p {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	text-indent: 5em;
+	line-height: 100px;
+}
+
+.container {
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	margin-top: 120px;
+	border: 1px solid #333333;
+}
+
+.container .options li:hover {
+	background-color: #333333;
+	color: white;;
+	cursor: pointer;
+}
+
+#experiment , #student {
+
+}
+
+.options li {
+	float: left;
+	width: 15%;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #333333;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+	top: -32px;
+	left: -1px;
+}
+
+
+.button.on {
+	background-color: #333333;
+	color: white;
+}
+
+
+
+.experiment-menu {
+	width: 100%;
+	height: 40px;
+	background-color: #333333;
+}
+
+.experiment-menu li {
+	float: left;
+	width: 15%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	left: -30%;
+	cursor: pointer;
+}
+
+
+.new-experiment table {
+	width: 100%;
+	
+}
+
+.itemname {
+	width: 100%;
+	height: 35px;
+	border-bottom: 1px solid #333333;
+}
+
+
+
+.itemname li {
+	float: left;
+	width: 23.8%;
+	height: 35px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 20px;
+}
+.title li {
+	float: left;
+	width: 19%;
+	height: 35px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 20px;
+}
+.title li:nth-child(4){
+padding-left: 30px;
+}
+.title li:nth-child(5){
+padding-left: 70px;
+}
+.subtitle li{
+	float: left;
+	width: 19%;
+	height: 35px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 20px;
+}
+.subtitle li:nth-child(6){
+padding-left: 70px;
+
+}
+.itemname li input {
+	margin-top: -5px;
+}
+
+.itemname .option-button {
+	width: 20px;
+}
+
+.student-menu {
+	width: 100%;
+	height: 40px;
+	background-color: #333333;
+}
+
+.student-menu li {
+	float: right;
+	width: 15%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+#experiment {
+	display: block;
+}
+
+#student {
+	display: none;
+}
+
+.list-box {
+	width: 100%;
+	height: 310px;
+	cursor: default;
+	overflow-y: auto;
+}
+
+
+.new-experiment ul li input , .new-student li input {
+	margin-top: 15px;
+	width: 95%;
+	height: 30px;
+	background-color: #ECEDEE;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	text-indent: 10px;
+	margin-left: 13px;
+}
+
+.new-experiment ul li input::-webkit-input-placeholder{color: #6C6564;}
+.new-experiment ul li input::-moz-placeholder{color: #6C6564;}
+.new-experiment ul li input:-ms-input-placeholder{color: #6C6564;}
+.new-experiment ul li input:-moz-placeholder{color: #6C6564;}
+
+.new-student li input::-webkit-input-placeholder{color: #6C6564;}
+.new-student li input::-moz-placeholder{color: #6C6564;}
+.new-student li input:-ms-input-placeholder{color: #6C6564;}
+.new-student li input:-moz-placeholder{color: #6C6564;}
+
+.new-student , .new-experiment {
+	display: none;
+}
+
+.new-experiment .add-file .add {
+	white-space: 100px;
+}
+
+.new-experiment .add-file  {
+	width: 100%;
+	position: relative;
+	top: 20px;
+}
+
+.new-experiment .add-file input {
+	width: 85%;
+	background-color: #ECEDEE;
+	margin-top: 10px;
+}
+
+.experiment-menu ul li input {
+	background-color: #333333;
+	color: white;
+	font-size: 17px;
+	margin-top: -10px;
+	letter-spacing: 10px;
+	border: none;
+}
+
+
+
+.new-experiment .add-file .add-button {
+	width: 20%;
+	height: 30px;
+	background-color: white;
+	border: 2px solid #3366ff;
+	border-radius: 10px;
+}
+
+.new-student .add-button {
+	width: 75%;
+	height: 30px;
+	background-color: white;
+	border: 2px solid #3366ff;
+	border-radius: 10px;
+	letter-spacing: 5px;
+}
+
+
+.student-mask {
+	background-color: rgba(0,0,0,0.2);
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:1;
+
+	width: 100%;
+	height: 99%;
+
+	display: none;
+
+}
+
+
+.student-detail {
+	width: 500px;
+	height: 360px;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 2;
+
+	margin: -130px 0 0 -250px;
+
+	background: #F7EED6;
+
+	display: none;
+
+	overflow: hidden;
+
+	-webkit-box-shadow:0 0 10px #000;  
+    -moz-box-shadow:0 0 10px #000;  
+    box-shadow:0 0 10px #000; 
+
+}
+
+.student-detail td {
+	height: 50px;
+	cursor: default
+}
+
+
+.student-detail table {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.student-detail label {
+	font-size: 16px;
+	padding: 10px;
+    color: black;
+    font-weight: bold;
+
+    cursor: default;
+}
+
+
+.unfinish {
+	background-color: rgb(222,84,117);
+}
+
+.finish {
+	background-color: rgb(122,198,160);
+	cursor: pointer;
+}
+
+.unfinish-label {;
+	float: right;
+	margin-right: 10px;
+}
+
+.finish-label {
+	float: right;
+	margin-right: 10px;
+
+}
+
+.student-detail .experimentInfo {
+	width: 90%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+
+}
+
+.footer {
+	width: 60%;
+	height: 40px;
+	margin:auto;
+	background-color: #333333;
+}
+
+.footer p {
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}

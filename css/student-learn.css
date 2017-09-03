@@ -1,0 +1,272 @@
+body {
+	font-size: 12px;
+	font-family: none-serif;
+	background-image: url(../imges/background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0 -150px;
+}
+
+.floatClear {
+	clear: both;
+}
+
+.distanceEffect {
+	padding-top: 50px;
+}
+
+.banner {
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 10px 10px 50x black;
+}
+
+.banner img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.banner span {
+	font-size: 40px;
+	font-family: "华文行楷"，serif;
+	display: block;
+	line-height: 120px;
+}
+
+.body {
+	width: 60%;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.headstate {
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+
+.back {
+	float: left;
+	margin-left: 40px;
+}
+
+.menu li {
+	float: right;
+	margin-right: 30px;
+}
+
+.menu a , .back a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover .back a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:visited , .back a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.main-part {
+	width: 98%;
+	margin: auto;
+	text-align: center;
+}
+
+.main-part p {
+	font-size: 40px;
+	font-family: Microsoft Yahei;
+}
+
+
+.viewer-box-out-style.on {
+	display: block;
+}
+
+/*  viewer style  1  */
+
+.viewer-box-out-style-1 {
+	width: 100%;
+	height: 460px;
+	background-color: #333333;
+	margin-top: 10px;
+	display: block;
+}
+
+.viewer-box-out-style-1 img {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.viewer-box-out-style-1 li {
+	float: left;
+	font-family: Microsoft Yahei;
+	color: #333333;
+	width: 70px;
+	height: 30px;
+	background-color: #cccccc;
+	line-height: 30px;
+	position: relative;
+	left: 20px;
+	margin-top: 10px;
+}
+
+.viewer-box-out-style-1 .slides ,.viewer-box-out-style-1 .video ,.viewer-box-out-style-1 .flash {
+	width: 70px;
+	height: 30px;
+	background-color: #cccccc;
+	float: left;
+	line-height: 30px;
+	margin-top: 10px;
+	border: 1px solid #333333;
+}
+
+.viewer-box-out-style-1 .slides {
+	margin-left: 19px;
+}
+
+
+.viewer-box-inner {
+	width: 95%;
+	height: 400px;
+	background-color: black;
+	margin: auto;
+	border: 1px solid #333333;
+}
+
+#sildes , #video , #flash {
+	background-image: url(../imges/error.png);
+	display: none;
+}
+
+.viewer-box-inner .box.active {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.viewer-box-out-style-1 li.active {
+	background-color: #999999;
+	color: white;
+} 
+
+
+
+/*  viewer style  1  */
+
+/*  viewer style  2  */
+
+.viewer-box-out-style-2 {
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	display: none;
+}
+
+
+
+.viewer-box-out-style-2 img {
+	float: right;
+	margin-top: -20px;
+	position: relative;
+	top: 30px;
+	right: 10px;
+}
+
+.viewer-box-out-style-2 .slides ,.viewer-box-out-style-2 .video ,.viewer-box-out-style-2 .flash {
+	width: 70px;
+	height: 30px;
+	font-family: Microsoft Yahei;
+	background-color: #cccccc;
+	float: left;
+	line-height: 30px;
+	margin-left: -1px;
+	margin-top: -32px;
+	border: 1px solid #333333;
+}
+
+.viewer-sildes-2 {
+	width: 97%;
+	height: 400px;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 40px;
+	border: 1px solid #333333;
+}
+
+.viewer-sildes-2 .viewer-sildes {
+	background-image: url(../imges/error.png);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+
+
+.viewer-flash-2 {
+	float: left;
+	width: 47.8%;
+	height: 300px;
+	background-color: white;
+	margin-left: 10px;
+	margin-top: 40px;
+	border: 1px solid #333333;
+}
+
+.viewer-flash-2 .viewer-flash {
+	background-image: url(../imges/error.png);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+
+.viewer-video-2 {
+	float: left;
+	width: 47.8%;
+	height: 300px;
+	background-color: black;
+	margin-left: 10px;
+	margin-top: 40px;
+	border: 1px solid #333333;
+}
+
+.viewer-video-2 .viewer-video {
+	background-image: url(../imges/error.png);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*  viewer style  2  */
+
+
+
+.footer {
+	width: 60%;
+	height: 40px;
+	margin:auto;
+	background-color: #333333;
+}
+
+.footer p {
+	font-size: 12px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
+
+
+

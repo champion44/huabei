@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>请完善您的信息</title>
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="infoPage.css" />
+</head>
+<body>
+	<div class="main">
+		<div class="banner">
+			<div><img src="imges/logo.png" alt="" /></div>
+			<div><span>动力工程系</span></div>
+		</div>
+		<div class="body">
+			<div class="headstate">
+				<div class="name">您好，<?php  echo $_COOKIE['studentname']?>同学</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#">退出系统</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="floatClear"></div>	
+			<div class="distanceEffect"></div>
+			<form action="#" method="get">
+				<div class="infoTable">
+					<table>
+						<tr>
+							<th colspan="2"><p>您好，初次登录请完善您的信息</p></th>
+						</tr>
+						<tr>
+							<th>姓名：</th>
+							<th><input type="text" name="name"/></th>
+						</tr>
+						<tr>
+							<th>学号：</th>
+							<th><input type="text" name="studentID"/></th>
+						</tr>
+						<tr>
+							<th>任课老师：</th>
+							<th><input type="text" name="teacherName"/></th>
+						</tr>
+						<tr>
+							<th>联系方式：</th>
+							<th><input type="text" name="contact"/></th>
+						</tr>
+						<tr>
+							<th colspan="2"><input class="submit" type="submit" value="提交"/></th>
+						</tr>
+					</table>
+				</div>
+			</form>
+			<div class="footer">
+				<p>&copy;版权所有</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
