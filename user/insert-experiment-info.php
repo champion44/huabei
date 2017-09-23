@@ -13,7 +13,7 @@ $category = $_POST['category'];
 $pdfurl = $_POST['PDF'];
 $flashurl = $_POST['FLASH'];
 $videourl = $_POST['VIDEO'];
-
+$teachername = $_SESSION['teachername'];
 
 $sql_exist = "SELECT experimenttime FROM experimentlist WHERE experimentname='{$experimentname}'";
 $rst_exist = $mysqli->query($sql_exist);
@@ -21,7 +21,7 @@ $row_exist = mysqli_fetch_assoc($rst_exist);
 if($row_exist['experimenttime']==""){
 // 如果得到空 1新增实验 2并且在学生端增加column
 // 1新增实验
-	$sql_newLab = "INSERT INTO experimentlist (experimentname,experimentlocation,experimenttime,category) VALUES ('{$experimentname}','{$experimentlocation}','{$experimenttime}','{$category}')";
+	$sql_newLab = "INSERT INTO experimentlist (experimentname,experimentlocation,experimenttime,category,teacher) VALUES ('{$experimentname}','{$experimentlocation}','{$experimenttime}','{$category}','{$teachername}')";
 	$rst_newLab = $mysqli->query($sql_newLab);
 	if($rst_newLab){
 		// 学生端新增字段

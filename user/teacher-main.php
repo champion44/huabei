@@ -229,7 +229,6 @@
 	<script src="../js/setStudentExperimentInfo.js"></script>
 	<script src="../js/initialStudentExperimentInfo.js"></script>
 	<script >
-
 		$(document).ready(function(){
 			$('.selectItem').on('click',function(){
 				$('.vitalTime').val(this.value);
@@ -243,7 +242,6 @@
 					}, 
 					success: function(data){
 						$('#content').html(data);
-						console.log(data);
 						location.reload();
 					}
 				});

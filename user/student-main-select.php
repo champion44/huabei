@@ -385,9 +385,9 @@ $row_student = mysqli_fetch_assoc($rst_student);
 
 		<!--Widget js-->
 		<script src="../js/widget.js"></script>
-
+   
 	<!--Video Plugin>
-	<script src="../js/fz-video.js"></script>
+	 <script src="../js/fz-video.js"></script>
 
 	<script src="../js/fz-video-url.js"></script>
 	< The End of the Video Plugin-->
@@ -401,12 +401,11 @@ $row_student = mysqli_fetch_assoc($rst_student);
 		$(document).ready(function(){
 
 			$('.experiment').find('.learn-button').on('click',function(){
-				alert("s");
+				//alert("s");
 				var $experimentname = $(this).attr('rel');
 				getExperimentInfo($experimentname,this);
-				setVIDEO();
-				setVIDEOurl();
-				$('#open-button').onclick();
+				//getVIDEO();
+				//setVIDEOurl();
 			});
 
 			$('.selectItem').on('click',function(){
